@@ -1,0 +1,33 @@
+/*--------------------------------------------------------------
+ * ## Site
+ *
+ * The bulk of our site styles belong in this section
+ *
+ * Page/Post template styles would go here as well
+ * For example if you created a custom home page template
+ * and wanted styles for it you would create a _home.scss
+ * file and save it in the primary folder and include an 
+ * @import under Posts and pages section
+ * ------------------------------------------------------------*/
+
+// @import "../layout/content-sidebar";
+// @import "../layout/sidebar-content";
+/*--------------------------------------------------------------
+## Posts and pages
+--------------------------------------------------------------*/
+@import "primary/posts-and-pages";
+
+/*--------------------------------------------------------------
+## Comments
+--------------------------------------------------------------*/
+@import "primary/comments";
+
+/*--------------------------------------------------------------
+## Header
+--------------------------------------------------------------*/
+@import "header/header";
+
+/*--------------------------------------------------------------
+## Footer
+--------------------------------------------------------------*/
+@import "footer/footer";

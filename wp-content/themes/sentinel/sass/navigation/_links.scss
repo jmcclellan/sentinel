@@ -1,0 +1,26 @@
+/*--------------------------------------------------------------
+ * ## Navigation: Links
+ *
+ * Classes that style links that exist in our site navigation 
+ * belong in this section
+ * ------------------------------------------------------------*/
+
+a {
+	color: $color__link;
+
+	&:visited {
+		color: $color__link-visited;
+	}
+	&:hover,
+	&:focus,
+	&:active {
+		color: $color__link-hover;
+	}
+	&:focus {
+		outline: thin dotted;
+	}
+	&:hover,
+	&:active {
+		outline: 0;
+	}
+}

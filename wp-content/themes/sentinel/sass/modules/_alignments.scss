@@ -1,0 +1,23 @@
+/*--------------------------------------------------------------
+ * ## Alignments
+ *
+ * Basic alignment classes, feel free to tweak if necessary
+ * but you can probably safely ignore this file
+ * ------------------------------------------------------------*/
+
+.alignleft {
+	display: inline;
+	float: left;
+	margin-right: 1.5em;
+}
+
+.alignright {
+	display: inline;
+	float: right;
+	margin-left: 1.5em;
+}
+
+.aligncenter {
+	clear: both;
+	@include center-block;
+}
