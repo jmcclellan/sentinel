@@ -1,3 +1,10 @@
+/*--------------------------------------------------------------
+ * ## Accessibility
+ *
+ * Any styles that are meant to accommodate screen readers 
+ * and other types of accessibility support belong here
+ * ------------------------------------------------------------*/
+
 /* Text meant only for screen readers. */
 .screen-reader-text {
 	clip: rect(1px, 1px, 1px, 1px);

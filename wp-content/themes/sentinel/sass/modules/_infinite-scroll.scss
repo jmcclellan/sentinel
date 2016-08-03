@@ -1,3 +1,11 @@
+/*--------------------------------------------------------------
+ * ## Infinite Scroll
+ *
+ * Classes to assist with infinite scroll
+ * We can safely remove this if we decide not to impement
+ * infinite scroll in sentinel
+ * ------------------------------------------------------------*/
+
 /* Globally hidden elements when Infinite Scroll is supported and in use. */
 .infinite-scroll .posts-navigation, /* Older / Newer Posts Navigation (always hidden) */
 .infinite-scroll.neverending .site-footer { /* Theme Footer (when set to scrolling) */

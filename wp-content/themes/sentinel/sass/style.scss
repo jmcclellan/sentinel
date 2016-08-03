@@ -30,13 +30,16 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 # Navigation
 	## Links
 	## Menus
+# Classes
 # Accessibility
 # Alignments
 # Clearings
 # Widgets
 # Content
+	## Header
 	## Posts and pages
 	## Comments
+	## Footer
 # Infinite scroll
 # Media
 	## Captions
@@ -69,6 +72,11 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 # Navigation
 --------------------------------------------------------------*/
 @import "navigation/navigation";
+
+/*--------------------------------------------------------------
+# Classes
+--------------------------------------------------------------*/
+@import "modules/classes";
 
 /*--------------------------------------------------------------
 # Accessibility
